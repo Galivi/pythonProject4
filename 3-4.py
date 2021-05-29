@@ -37,7 +37,7 @@
 #
 # bottom_silver = gold
 # bottom_bronze = [a + b for a, b in zip(gold, silver)]
-#
+##
 # fig, ax = plt.subplots()
 # p1 = ax.bar(countries, gold, color='gold', label='Gold')
 # p2= ax.bar(countries, silver, bottom=bottom_silver, label= 'Silver')
