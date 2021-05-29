@@ -1,0 +1,99 @@
+# #리스트
+# for i in [1,2,3]:
+#     print(i)
+
+# #튜플
+# for i in (4,5,6):
+#     print(i)
+
+# #집합
+# for i in {1,2,3}:
+#     print(i)
+
+# #튜플
+# for i in 4,5,6:
+#     print(i)
+
+
+# a = range(5)
+# for i in a:
+#     print(i)
+#
+# a = range(1, 5)
+# for i in a:
+#     print(i)
+#
+# a = range(1, 15, 3)
+# for i in a:
+#     print(i)
+
+
+# a = 0
+# for i in range(15):
+#     a += 1
+#     if a == 10:
+#         break
+#         print(a, '번째 코드 실행')
+# print('종료')
+#
+# a = 0
+# for i in range(15):
+#     a += 1
+#     if a == 10:
+#         continue
+#     print(a, '번째 코드 실행')
+# print('종료')
+
+
+
+# import time
+#
+# playing = True
+# while playing:
+#     print('프로그램이 실행 중입니다.')
+#     time.sleep(1)
+
+
+#     a = input('프로그램을 종료할까요?[y/n]')
+#     if a =='y':
+#         playing = False
+#     else:
+#         playing = True
+# print('프로그램을 종료합니다.')
+
+
+# print('구구단입니다.')
+#
+# for i in range(9):
+#     print(f'{i+1}단의 구구단 입니다.')
+#     for j in range(9):
+#         print(f'{i+1} * {j+1} = {(i+1)*(j+1)} 입니다.')
+
+
+# a = input('숫자를 입력해주세요.')
+#
+# for i in a:
+#     for j in range(int(i)):
+#         print('★', end='')
+#     print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
